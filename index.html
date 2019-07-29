@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Flatiron - Frontend Bootcamp</title>
+
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style>
+			.reveal h3 {
+				/*color: #5051DB;*/
+				/*color: #3887F7;*/
+			}
+
+			strong {
+				color: #5051DB;
+			}
+
+			.reveal section img {
+				max-height: 100vh;
+			}
+
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>Flatiron Frontend Bootcamp</h3>
+					<!--
+					<hr>
+					<a href="https://bit.ly/fh-fe-bootcamp" target="_blank">bit.ly/fh-fe-bootcamp</a>
+					-->
+					<hr>
+					<p>Git clone Atrium <a href="https://git.the.flatiron.com/flatironhealth/design">https://git.the.flatiron.com/flatironhealth/design</a></p>
+				</section>
+				<section>
+					<h3>Welcome</h3>
+					<ol>
+						<li>Tips for Frontend Dev at Flatiron (10 min)</li>
+						<li>Creating your Contributor Component (20 min)</li>
+					</ol>
+				</section>
+
+				<!--
+				<section>
+					<h3>Ice breaker?</h3>
+				</section>
+				<section>
+					<h3>React</h3>
+					<ul>
+						<li>JavaScript library for building user interfaces</li>
+						<li>Primarily just the <strong>view</strong> layer</li>
+						<li>Encourages component-oriented architecture</li>
+					</ul>
+				</section>
+				-->
+
+				<section>
+					<h3>Slack</h3>
+					<ul>
+						<li>#front-end</li>
+						<li>Great place to asks any question you might have related to frontend!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Frontend Office Hours</h3>
+					<ul>
+						<li>We have someone available to provide support</li>
+						<li>Every Monday & Wednesday, 12PM-1PM</li>
+						<li>There's a post in the <strong>#front-end</strong> channel you can respond to and someone will reach out to help</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Frontend Intergrouplet</h3>
+					<ul>
+						<li>A biweekly meeting where we discuss frontend tech</li>
+						<li>Thursday, 2PM-3PM</li>
+						<li>You can find the event on the Engineering calendar</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Confluence Documentation</h3>
+					<ul>
+						<li>A lot of best practices have been captured in <a href="https://flatironhealth.atlassian.net/wiki" target="_blank">Confluence</a></li>
+						<li>Try searching for a technology and you're likely to find something</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Atrium Overview</h3>
+					<ul>
+						<li><a href="https://design.flatiron.io/#/overview" target="_blank">Atrium</a> is Flatiron's pattern library</li>
+						<li>Allows us to share components across applications and maintain consistent branding</li>
+						<li>Supports React and Angular</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Creating our own Contributor Components</h3>
+					<ul>
+						<li>Start by getting Atrium running locally by following the instructions at <a href="https://design.flatiron.io/#/contributing" target="_blank">https://design.flatiron.io/#/contributing</a>
+						<li>Once it's running, move on to the next slide</li>
+					</ul>
+				</section>
+
+				<section>
+					<ol>
+						<li>Copy one of the existing contributor components in <strong>docs/Components/Contributors/People/</strong> to create YourName.js in the same directory</li>
+						<li>Add your image to the <strong>docs/imgs/</strong> and update your component to reference it</li>
+						<li>Reference your component in <strong>docs/contributors.js</strong> and confirm your component shows up in the Contributor section of Atrium</li>
+						<li>Update your name, slack id, and add any other changes you want to make to your component!</li>
+					</ol>
+				</section>
+
+				<section>
+					<ol>
+						<li>Copy one of the existing contributor components in <strong>docs/Components/Contributors/People/</strong> to create YourName.js in the same directory</li>
+						<li>Add your image to the <strong>docs/imgs/</strong> and update your component to reference it</li>
+						<li>Reference your component in <strong>docs/contributors.js</strong> and confirm your component shows up in the Contributor section of Atrium</li>
+						<li>Update your name, slack id, and add any other changes you want to make to your component!</li>
+						<li>Once you're done, create a pull request based on the instructions on the <a href="https://design.flatiron.io/#/contributing" target="_blank">Contributing page</a></li>
+					</ol>
+				</section>
+				<section>
+					<h3>Provide feedback!</h3>
+					<p>fh.flatiron.io/bootcamp-feedback</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+                history: true,
+			});
+		</script>
+	</body>
+</html>
